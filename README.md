@@ -52,7 +52,7 @@ use: {
 ```
 
 
-## ▶️ Running Tests (UI mode)
+## ▶️ Running tests (UI mode)
 ```
 npx playwright test --ui
 ```
