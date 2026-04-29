@@ -1,7 +1,7 @@
 # CRUD Books Backend and Frontend Automation Project
 
 
-This project contains automated tests of both backend (API) and frontend(UI) of a Library Management System. The test suite was built using JavaScript, Playwright, and Faker.js for dynamic test data generation.
+This project contains automated tests of both backend (API) and frontend (UI) of a Library Management System. The test suite was built using JavaScript, Playwright, and Faker.js for dynamic test data generation.
 
 
 ## 🚀 Tech Stack 
