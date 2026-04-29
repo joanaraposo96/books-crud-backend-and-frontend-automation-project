@@ -57,9 +57,9 @@ use: {
 npx playwright test --ui
 ```
 
-## 📁 Where traces are stored and how to open traces: 
+## 🧭 Locating trace files and running them
 
-Trace files are currently saved inside:
+Trace files are saved inside:
 ```
 test-results/**/trace.zip
 ```
@@ -71,7 +71,7 @@ Example:
 ```
 npx playwright show-trace test-results/api-Books-API-Books-Add-new-book-chromium//trace.zip
 ```
-## 🔍 What you can inspect in a trace: 
+## 🔍 What you can inspect in a trace
 - Step-by-step test execution
 - Screenshots at each action
 - DOM snapshots
