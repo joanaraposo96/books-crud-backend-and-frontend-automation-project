@@ -1,4 +1,4 @@
-# CRUD Books Backend and Frontend Automation Project
+# Books CRUD Backend and Frontend Automation Project
 
 
 This project contains automated tests of both backend (API) and frontend (UI) of a Library Management System. The test suite was built using JavaScript, Playwright, and Faker.js for dynamic test data generation.
@@ -13,8 +13,8 @@ This project contains automated tests of both backend (API) and frontend (UI) of
 ## 📦 Setup & Installation
 1. **Clone the repository**  
 ```bash
-git clone https://github.com/joanaraposo96/crud-livros-backend-and-frontend-automation-project.git
-cd crud-livros-backend-and-frontend-automation-project
+git clone https://github.com/joanaraposo96/books-crud-backend-and-frontend-automation-project.git
+cd books-crud-backend-and-frontend-automation-project
 ```
 
 2. **Initialize Node.js project**
@@ -34,9 +34,9 @@ npm install @faker-js/faker
 ```
 
 ## 🔌 Backend API Setup
-1. **Download the API Repository**: This test suite depends on a backend API running locally 👉 [CRUD Livros Expandido](https://github.com/brunonf15/crud-livros-expandido)
+This test suite depends on a backend API running locally 👉 [CRUD Livros Expandido](https://github.com/brunonf15/crud-livros-expandido).
 
-2. **Run the API**: By default, the API runs at **http://localhost:3000**
+1. **Clone the repository and Run the API**: By default, the API runs at **http://localhost:3000**
 ```bash
 git clone https://github.com/brunonf15/crud-livros-expandido.git
 cd brunonf15/crud-livros-expandido
@@ -44,7 +44,7 @@ npm install
 npm start
 ```
 
-3. **Configure Playwright**: Update playwright.config.js
+2. **Configure Playwright**: Update playwright.config.js
 ```bash
 use: {
   baseURL: 'http://localhost:3000'
@@ -59,7 +59,7 @@ npx playwright test --ui
 
 ## 📁 Project Structure
 ```md id="p9m1qx"
-📦 crud-livros-backend-and-frontend-automation-project
+📦 books-crud-backend-and-frontend-automation-project
 ├── 📂 components
 │   └── 📄 Header.js
 │
@@ -102,7 +102,7 @@ npx playwright test --ui
 ## 🧪 Test Coverage
 ⚙️ **Backend (API)**
 - User registration
-- Login (success and failure)
+- Login
 - Books CRUD operations
 - Statistics endpoint
 - Favorites feature
